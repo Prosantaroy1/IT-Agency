@@ -8,7 +8,9 @@ const Navber = () => {
             <div className="container mx-auto flex items-center justify-between">
                 {/* logo */}
                 <div>
+                    <NavLink to='/'>
                     <img src={logo} alt="" className='w-40' />
+                    </NavLink>
                 </div>
                 {/* navLink */}
                 <div className='md:flex hidden'>

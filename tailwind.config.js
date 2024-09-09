@@ -13,7 +13,8 @@ export default {
       'white': '#F4F6FC',
       'black': '#282938',
       'yellow': '#FCD980',
-      'rella-yellow': '#2405F2',
+      'rellayellow': '#2405F2',
+      'white-pp': '#F4F6FC'
     },
     extend: {},
   },
