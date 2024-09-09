@@ -14,8 +14,8 @@ import { Pagination } from 'swiper/modules';
 
 const Testimonial = () => {
     return (
-        <div className="py-28 ">
-            <div className="container grid grid-cols-1 md:grid-cols-4 gap-12 px-10 font-fontpp mx-auto">
+        <div className="py-36 bg-[#F4F6FC]">
+            <div className="container grid grid-cols-1 md:grid-cols-4 gap-12 px-4 md:px-10 font-fontpp mx-auto">
                 {/* fris part */}
                 <div className="space-y-5">
                     <h3 className="text-3xl font-semibold ">What our clients <br />say about us</h3>
