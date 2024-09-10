@@ -4,7 +4,7 @@ import banner from '../../../assets/header/Illustration (1).svg'
 
 const Featurehero = () => {
     return (
-        <div className='bg-blue md:py-40 py-28 text-white font-fontpp'>
+        <div className='bg-blue md:py-40 py-28 px-1 text-white font-fontpp'>
             <div className="container flex md:flex-row md:gap-1 md:px-1 px-6 gap-14 flex-col-reverse items-center justify-between mx-auto">
                 {/* title */}
                 <div className='space-y-7 w-full  md:w-[570px]'>

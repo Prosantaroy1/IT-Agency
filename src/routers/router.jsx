@@ -5,6 +5,9 @@ import About from "../Component/About Page/About/About";
 import Pricing from "../Component/Pricing Page/Pricing/Pricing";
 import Errorpage from "../Component/ErrorPgae/Errorpage";
 import Feature from "../Component/Feature Page/Feature/Feature";
+import Faqpage from "../Component/Faq Page/Faqpage";
+import Bloghome from "../Component/Blog Page/Bloghome/Bloghome";
+import BlogDetails from "../Component/Blog Page/Blog Details/BlogDetails";
 
 const router =createBrowserRouter([
     {
@@ -27,7 +30,20 @@ const router =createBrowserRouter([
             {
                 path: '/feature',
                 element: <Feature/>
+            },
+            {
+                path: '/faq',
+                element: <Faqpage/>
+            },
+            {
+                path: '/blog',
+                element: <Bloghome/>
+            },
+            {
+                path: '/details',
+                element: <BlogDetails/>
             }
+
         ]
     }
 ])

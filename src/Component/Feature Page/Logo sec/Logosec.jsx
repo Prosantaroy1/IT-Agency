@@ -8,7 +8,7 @@ import logo6 from '../../../assets/Feature/logo/Logo 5.png'
 
 const Logosec = () => {
     return (
-        <div className='py-14'>
+        <div className='py-14 px-5'>
             <div className="container flex items-center gap-16 flex-wrap mx-auto">
                 <img src={logo1} alt="" />
                 <div>
