@@ -25,7 +25,7 @@ const Navber = () => {
                             <NavLink to='/feature'>Features</NavLink>
                         </li>
                         <li className='hover:hover:text-yellow'>
-                            <NavLink to='/price'>Pricing</NavLink>
+                            <NavLink to='/pricing'>Pricing</NavLink>
                         </li>
                         <li className='hover:hover:text-yellow'>
                             <NavLink to='/faq'>FAQ</NavLink>
