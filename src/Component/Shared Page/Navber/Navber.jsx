@@ -16,22 +16,22 @@ const Navber = () => {
                 <div className='md:flex hidden'>
                     <ul className='flex text-xl items-center gap-10'>
                         <li className='hover:hover:text-yellow'>
-                            <NavLink>Home</NavLink>
+                            <NavLink to='/'>Home</NavLink>
                         </li>
                         <li className='hover:hover:text-yellow'>
-                            <NavLink>About us</NavLink>
+                            <NavLink to='/about'>About us</NavLink>
                         </li>
                         <li className='hover:hover:text-yellow'>
-                            <NavLink>Features</NavLink>
+                            <NavLink to='/feature'>Features</NavLink>
                         </li>
                         <li className='hover:hover:text-yellow'>
-                            <NavLink>Pricing</NavLink>
+                            <NavLink to='/price'>Pricing</NavLink>
                         </li>
                         <li className='hover:hover:text-yellow'>
-                            <NavLink>FAQ</NavLink>
+                            <NavLink to='/faq'>FAQ</NavLink>
                         </li>
                         <li className='hover:hover:text-yellow'>
-                            <NavLink>Blog</NavLink>
+                            <NavLink to='/blog'>Blog</NavLink>
                         </li>
                         <li>
                             <NavLink>
