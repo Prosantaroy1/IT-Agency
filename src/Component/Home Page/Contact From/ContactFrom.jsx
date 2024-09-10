@@ -2,7 +2,7 @@ import imgOne from '../../../assets/img/conact.png'
 
 const ContactFrom = () => {
     return (
-        <div className="pt-12">
+        <div className="pt-12 mb-12">
             <div className="container font-fontpp flex flex-wrap items-center px-3 md:px-14 mx-auto">
                 {/* one part */}
                 <div className="relative">
