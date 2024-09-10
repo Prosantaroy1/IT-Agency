@@ -1,3 +1,4 @@
+import Blogcard from "../../Blog Page/Blog Card/Blogcard";
 import Banner from "../Banner/Banner";
 import ContactFrom from "../Contact From/ContactFrom";
 import Faq from "../FAQ/FAQ";
@@ -14,8 +15,12 @@ const Home = () => {
             <Ourwork />
             <Features />
             <Testimonial />
-            <Faq/>
-            <ContactFrom/>          
+            <Faq />
+            <ContactFrom />
+            <div className="py-8">
+                <h4 className="text-center text-4xl pb-6 font-fontpp font-semibold">Our Blog</h4>
+                <Blogcard />
+            </div>
         </div>
     );
 };

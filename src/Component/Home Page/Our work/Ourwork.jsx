@@ -2,10 +2,10 @@ import { TbArrowNarrowRight } from "react-icons/tb";
 import img1 from '../../../assets/our work/Card.png'
 import img2 from '../../../assets/our work/Card (1).png'
 import img3 from '../../../assets/our work/Rectangle 1313.png'
-
-
+import { NavLink } from "react-router-dom";
 
 const Ourwork = () => {
+    //
     return (
         <div className="py-24">
             <div className="container font-fontpp mx-auto">
@@ -25,9 +25,11 @@ const Ourwork = () => {
                             <p className="text-xl">
                                 Euismod faucibus turpis eu gravida<br /> mi. Pellentesque et velit aliquam
                             </p>
-                            <p className="text-xl cursor-pointer text-yellow flex items-center gap-2 font-medium">
-                                View More <TbArrowNarrowRight className="text-2xl" />
-                            </p>
+                            <NavLink to='/workDetails'>
+                                <p className="text-xl cursor-pointer text-yellow flex items-center gap-2 font-medium">
+                                    View More <TbArrowNarrowRight className="text-2xl" />
+                                </p>
+                            </NavLink>
                         </div>
                     </div>
                     {/* second part*/}
@@ -39,22 +41,26 @@ const Ourwork = () => {
                                     Unisaas Website <br />
                                     Design
                                 </h3>
-                                <p className="text-xl cursor-pointer text-yellow flex items-center gap-2 font-medium">
-                                    View More <TbArrowNarrowRight className="text-2xl" />
-                                </p>
+                                <NavLink to='/workDetails'>
+                                    <p className="text-xl cursor-pointer text-yellow flex items-center gap-2 font-medium">
+                                        View More <TbArrowNarrowRight className="text-2xl" />
+                                    </p>
+                                </NavLink>
                             </div>
                         </div>
                         {/* second  */}
                         <div className="relative w-full">
-                            <img src={img3} alt="" className="w-full"/>
+                            <img src={img3} alt="" className="w-full" />
                             <div className="bg-[#5e668b] transition-all ease-in-out duration-300 delay-150  flex opacity-0 hover:opacity-100 workCard1 flex-col justify-center p-6 gap-6 text-white absolute top-0  h-full left-0 right-0  w-full">
                                 <h3 className="text-3xl">
                                     Unisaas Website <br />
                                     Design
                                 </h3>
-                                <p className="text-xl cursor-pointer  text-yellow flex items-center gap-2 font-medium">
-                                    View More <TbArrowNarrowRight className="text-2xl" />
-                                </p>
+                                <NavLink to='/workDetails'>
+                                    <p className="text-xl cursor-pointer  text-yellow flex items-center gap-2 font-medium">
+                                        View More <TbArrowNarrowRight className="text-2xl" />
+                                    </p>
+                                </NavLink>
                             </div>
                         </div>
                     </div>

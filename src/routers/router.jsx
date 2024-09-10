@@ -8,6 +8,9 @@ import Feature from "../Component/Feature Page/Feature/Feature";
 import Faqpage from "../Component/Faq Page/Faqpage";
 import Bloghome from "../Component/Blog Page/Bloghome/Bloghome";
 import BlogDetails from "../Component/Blog Page/Blog Details/BlogDetails";
+import Contact from "../Component/ContactPage/Contact";
+import WorkDetails from "../Component/Home Page/Work Details/WorkDetails";
+import Workcard from "../Component/Home Page/Home/Work Card Ds/Workcard";
 
 const router =createBrowserRouter([
     {
@@ -42,6 +45,19 @@ const router =createBrowserRouter([
             {
                 path: '/details',
                 element: <BlogDetails/>
+            },
+            {
+                path: '/contact',
+                element: <Contact/>
+            },
+            {
+                path: '/workDetails',
+                element: <WorkDetails/>
+            },
+            {
+                path: '/item/:id',
+                element: <Workcard/>,
+                loader: ()=> fetch('data.json')
             }
 
         ]

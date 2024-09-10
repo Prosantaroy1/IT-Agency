@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "img": "../public/our work/Card.png",
+        "title": "Template 1"
+    },
+    {
+        "id": 2,
+        "img": "../public/our work/Rectangle 1313.png",
+        "title": "Template 3"
+    },
+    {
+        "id": 3,
+        "img": "../public/our work/Card (1).png",
+        "title": "Template 3"
+    }
+]
