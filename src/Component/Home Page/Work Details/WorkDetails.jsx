@@ -6,7 +6,7 @@ const WorkDetails = () => {
 
     const [data, setData] = useState([]);
     useEffect(() => {
-        fetch('data.json')
+        fetch('/public/data.json')
             .then(res => res.json())
             .then(data => {
                 setData(data)
