@@ -5,8 +5,6 @@ import { data } from "../../../../data/data";
 const Workcard = () => {
 
     const { id } = useParams();
-    // all data
-    // const card = useLoaderData();
 
     // 
     const datas = data.find((item) => item.id == id)

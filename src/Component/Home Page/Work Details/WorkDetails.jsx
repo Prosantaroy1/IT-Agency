@@ -5,14 +5,6 @@ import { data } from "../../../data/data";
 
 const WorkDetails = () => {
 
-    // const [data, setData] = useState([]);
-    // useEffect(() => {
-    //     fetch('data.json')
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             setData(data)
-    //         })
-    // }, [])
 
     return (
         <>
