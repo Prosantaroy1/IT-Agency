@@ -57,7 +57,7 @@ const router =createBrowserRouter([
             {
                 path: '/item/:id',
                 element: <Workcard/>,
-                loader: ()=> fetch('/public/data.json')
+                loader: ()=>fetch('data.json')
             }
 
         ]

@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "img": "../public/img/Card.png",
+        "img": "./image/img/Card.png",
         "title": "Template 1"
     },
     {
         "id": 2,
-        "img": "../public/img/card2.png",
+        "img": "./image/img/card2.png",
         "title": "Template 3"
     },
     {
         "id": 3,
-        "img": "../public/img/card3.png",
+        "img": "./image/img/card3.png",
         "title": "Template 3"
     }
 ]
