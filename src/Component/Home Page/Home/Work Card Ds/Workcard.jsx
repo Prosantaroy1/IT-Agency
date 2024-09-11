@@ -1,13 +1,15 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
+
+import { data } from "../../../../data/data";
 
 const Workcard = () => {
 
     const { id } = useParams();
     // all data
-    const card = useLoaderData();
+    // const card = useLoaderData();
 
     // 
-    const data = card.find((item) => item.id == id)
+    const datas = data.find((item) => item.id == id)
 
     return (
         <div className="py-28 md:px-3 px-5">
@@ -26,8 +28,8 @@ const Workcard = () => {
                 </div>
                 {/* img */}
                 <div className="mt-7">
-                    <img src={data.img} alt="" className=" w-[1050px]" />
-                    <h3 className="pt-4 text-2xl font-medium">{data.title}</h3>
+                    <img src={datas.img} alt="" className=" w-[1050px]" />
+                    <h3 className="pt-4 text-2xl font-medium">{datas.title}</h3>
                 </div>
                 {/* about */}
                 <div className="pt-7 px-3 space-y-6 md:px-16">
